@@ -1,4 +1,4 @@
-Netstat Is Dead. Long Live ss.
+**Netstat Is Dead. Long Live ss.**
 A Practical Perspective on Modern Network Socket Inspection
 
 There was a time when netstat was the first command any system administrator or security analyst would run during an investigation. It was the default tool for examining active connections, listening ports, routing tables, and interface statistics.
@@ -7,7 +7,7 @@ Today, on most modern Linux distributions, netstat is deprecated. It has been re
 
 This transition is not cosmetic. It reflects deeper architectural and performance changes in how the Linux kernel exposes networking information.
 
-Why netstat Became Obsolete
+**Why netstat Became Obsolete**
 
 netstat belongs to the older net-tools package. It gathers information by parsing files under /proc, which becomes inefficient and slow on systems with:
 
@@ -29,7 +29,7 @@ In security operations, speed and accuracy matter. During incident response, del
 
 This is where ss becomes relevant.
 
-The Rise of ss
+**The Rise of ss**
 
 The ss command (socket statistics) is part of iproute2, the modern networking utility suite in Linux. Unlike netstat, it interacts directly with the kernel through Netlink sockets rather than parsing /proc files.
 
@@ -45,16 +45,16 @@ Better scalability
 
 On high-load systems, the performance difference is noticeable.
 
-Practical Comparison
+**Practical Comparison**
 Listing Listening Ports
 
 Old approach:
 
-netstat -tulnp
+**netstat -tulnp**
 
 Modern approach:
 
-ss -tulnp
+**ss -tulnp**
 
 Both commands display:
 
@@ -70,15 +70,15 @@ Viewing Established Connections
 
 With netstat:
 
-netstat -ant
+**netstat -ant**
 
 With ss:
 
-ss -ant
+**ss -ant**
 
 Again, functionality overlaps. The difference lies in performance and future support.
 
-Security Relevance
+**Security Relevance**
 
 From a cybersecurity perspective, socket inspection is not optional. It is foundational.
 
@@ -96,7 +96,7 @@ Are there reverse shells active?
 
 An analyst responding to a compromised host may begin with:
 
-ss -plant
+**ss -plant**
 
 This reveals:
 
@@ -110,13 +110,13 @@ Listening services
 
 The inclusion of process association is particularly useful when identifying malicious binaries maintaining persistence.
 
-Example: Detecting Suspicious Connections
+**Example: Detecting Suspicious Connections**
 
 Suppose a server is suspected of communicating with an external command-and-control server.
 
 Using:
 
-ss -tnp
+**ss -tnp**
 
 An analyst can:
 
@@ -132,7 +132,7 @@ Inspect the binary or terminate the process
 
 This workflow is common in SOC environments.
 
-Why Many Professionals Still Use netstat
+_Why Many Professionals Still Use netstat_
 
 There are three primary reasons:
 
@@ -144,7 +144,7 @@ Legacy systems where ss is not available
 
 In Windows environments, netstat remains relevant and widely used:
 
-netstat -ano
+**netstat -ano**
 
 Followed by:
 
@@ -154,7 +154,7 @@ This workflow is still part of many incident response playbooks.
 
 However, in modern Linux systems, continuing to rely on netstat is largely unnecessary.
 
-When Should You Use ss?
+_When Should You Use ss?_
 
 In practical terms:
 
@@ -176,7 +176,7 @@ Process legitimacy
 
 The tool is secondary. The interpretation is primary.
 
-Final Thoughts
+**Final Thoughts**
 
 The shift from netstat to ss is not merely a change of syntax. It represents a broader movement toward more efficient, kernel-integrated networking utilities.
 
@@ -188,6 +188,6 @@ Understanding socket states, process associations, and network behavior is far m
 
 Tools evolve. Network behavior does not.
 
-Ethical Note
+**Ethical Note**
 
 All command demonstrations discussed here are intended for use in authorized environments, lab systems, or systems under legitimate administrative control.

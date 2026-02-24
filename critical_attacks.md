@@ -1,4 +1,4 @@
-Targeted and Infrastructure-Centric Attack Techniques
+**Targeted and Infrastructure-Centric Attack Techniques**
 
 In cybersecurity conversations, discussions often revolve around broad categories such as malware, ransomware, or phishing. However, in operational environments, security incidents frequently emerge from more targeted techniques that exploit trust, misconfiguration, and protocol behavior.
 
@@ -6,7 +6,7 @@ Understanding these attack methods is important not only for defensive teams, bu
 
 Below are several attack techniques that remain highly relevant across enterprise and public infrastructure.
 
-Spear Phishing
+**Spear Phishing**
 
 Spear phishing differs from mass phishing in one critical aspect: precision.
 
@@ -36,7 +36,7 @@ Structured approval workflows
 
 User training focused on verification culture
 
-Evil Twin Attack
+**Evil Twin Attack**
 
 An Evil Twin attack involves the deployment of a rogue wireless access point that impersonates a legitimate network.
 
@@ -68,7 +68,7 @@ Disabling automatic Wi-Fi connections
 
 Wireless trust assumptions remain a persistent risk factor.
 
-Domain Shadowing
+**Domain Shadowing**
 
 Domain shadowing occurs when attackers compromise legitimate domain registrar accounts and create malicious subdomains under an established domain.
 
@@ -126,7 +126,7 @@ Endpoint detection and response systems
 
 The system is not being exploited in a traditional sense — it is being repurposed.
 
-Session Fixation
+**Session Fixation**
 
 Session fixation is a web-based attack in which an attacker sets or predicts a session identifier before a victim authenticates.
 
@@ -146,7 +146,7 @@ Strict session expiration policies
 
 Session management remains a critical but often underestimated component of application security.
 
-DNS Tunneling
+**DNS Tunneling**
 
 DNS is foundational to internet communication and is almost always permitted through firewalls.
 
@@ -174,7 +174,7 @@ Reputation-based domain analysis
 
 Protocols designed for availability can become covert channels when misused.
 
-Closing Perspective
+**Closing Perspective**
 
 Security incidents frequently arise not from dramatic exploits, but from subtle misuse of trust boundaries and system assumptions.
 

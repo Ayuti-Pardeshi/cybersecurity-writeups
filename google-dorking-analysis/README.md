@@ -1,4 +1,4 @@
-Google Dorking: Manual Research vs Automation
+**Google Dorking: Manual Research vs Automation**
 An Analytical Comparison of Search-Based Reconnaissance Approaches
 
 Search engines index an extraordinary portion of publicly accessible information. When used thoughtfully, advanced search operators can help security professionals identify exposed assets, misconfigurations, and unintended data exposure.
@@ -9,7 +9,7 @@ The real discussion, from a professional standpoint, is not whether to use searc
 
 Both approaches have merit. Both carry risk. The difference lies in intent, scale, and discipline.
 
-What Is Google Dorking in Practice?
+**What Is Google Dorking in Practice?**
 
 Google dorking involves combining advanced search operators such as:
 
@@ -32,7 +32,7 @@ Public documents containing metadata
 
 The effectiveness of this technique depends more on analytical thinking than on tooling.
 
-Manual Dorking
+**Manual Dorking**
 
 Manual dorking is a deliberate, human-driven process.
 
@@ -72,7 +72,7 @@ Scripts or tools generate and execute large volumes of structured queries progra
 
 This approach prioritizes breadth over depth.
 
-Characteristics of Automated Dorking
+**Characteristics of Automated Dorking**
 
 Faster at scale
 
@@ -112,7 +112,7 @@ The distinction is not about superiority. It is about suitability.
 Manual methods are ideal for exploratory research.
 Automation is useful for structured monitoring.
 
-Operational Considerations
+**Operational Considerations**
 1. Legitimacy and Authorization
 
 Search engine indexing does not imply authorization for access beyond what is publicly visible. Analysts must remain within ethical and legal boundaries.
@@ -184,6 +184,6 @@ From an analytical standpoint, manual and automated methods serve different role
 Tools evolve. Indexes expand.
 What remains constant is the need for careful interpretation.
 
-Ethical Note
+**Ethical Note**
 
 All search-based research should remain within legal boundaries and platform usage policies. Public visibility does not grant permission for exploitation.

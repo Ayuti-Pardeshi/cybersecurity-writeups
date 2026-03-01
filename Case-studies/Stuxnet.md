@@ -2,19 +2,19 @@
 Below is case study of stuxnet about my understanding!
 
 Stuxnet Case Study
-What Was Stuxnet?
+**What Was Stuxnet?**
 
 Stuxnet was a computer worm discovered in 2010 that was designed to target industrial control systems rather than ordinary personal computers. It gained global attention because it was one of the first pieces of malware used to affect physical infrastructure, not just digital systems. It specifically attacked the systems controlling industrial machinery.
 
 At its core, Stuxnet was a malicious software worm that could spread from one computer to another and execute hidden instructions without the user’s knowledge. It was built with multiple advanced capabilities, including exploiting unknown software vulnerabilities and hiding its presence on infected machines.
 
-The Target
+**The Target**
 
 The most well-known objective of Stuxnet was the Natanz uranium enrichment facility in Iran. This facility used specialized industrial control systems—called SCADA (Supervisory Control and Data Acquisition) and PLCs (Programmable Logic Controllers)—to automate and monitor the centrifuges used in uranium enrichment.
 
 These systems were usually air-gapped (not connected to the Internet), which means the malware could not spread through normal network channels. Instead, initial infection likely occurred when an infected USB drive was introduced to one of the isolated systems. Once inside, Stuxnet searched for specific software and hardware configurations before activating its destructive payload.
 
-How It Worked
+**How It Worked**
 
 Stuxnet’s operation had several stages:
 
@@ -52,7 +52,7 @@ After its discovery, cybersecurity researchers spent months dissecting its desig
 
 Stuxnet also influenced subsequent malware developments that borrowed from its code or approach, demonstrating that weaponized malware could be more than just ransomware or data theft tools.
 
-What We Learn from Stuxnet
+**What We Learn from Stuxnet**
 
 This case underscores several important principles for cybersecurity:
 

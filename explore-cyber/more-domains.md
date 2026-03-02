@@ -1,5 +1,5 @@
 Different Domains Inside Cybersecurity
-Beyond Just “Hacking”
+**Beyond Just “Hacking”**
 
 Cybersecurity is often misunderstood as penetration testing or ethical hacking. While offensive security is one important domain, it represents only a small portion of the overall field.
 
@@ -7,7 +7,7 @@ Cybersecurity is a broad discipline that spans technology, governance, law, inte
 
 Understanding its domains helps aspiring professionals choose a path aligned with their strengths.
 
-1. Security Operations (SOC / Blue Team)
+**1. Security Operations (SOC / Blue Team)**
 
 Security Operations focuses on monitoring, detecting, and responding to threats in real time.
 
@@ -31,7 +31,7 @@ Incident response knowledge
 
 It is operational and fast-paced.
 
-2. Penetration Testing (Offensive Security)
+**2. Penetration Testing (Offensive Security)**
 
 Penetration testers simulate attacks to identify vulnerabilities before real attackers exploit them.
 
@@ -57,7 +57,7 @@ Strong reporting skills
 
 However, it is only one segment of cybersecurity, not the whole field.
 
-3. Threat Intelligence (CTI)
+**3. Threat Intelligence (CTI)**
 
 Cyber Threat Intelligence focuses on understanding adversaries.
 
@@ -83,7 +83,7 @@ Strategic thinking
 
 It is more analytical than technical exploitation.
 
-4. Digital Forensics and Incident Response (DFIR)
+**4. Digital Forensics and Incident Response (DFIR)**
 
 DFIR professionals investigate breaches after they occur.
 
@@ -109,7 +109,7 @@ Legal awareness
 
 It is investigative and detail-oriented.
 
-5. Governance, Risk, and Compliance (GRC)
+**5. Governance, Risk, and Compliance (GRC)**
 
 GRC is often overlooked but essential.
 
@@ -135,7 +135,7 @@ Business awareness
 
 It is strategic rather than technical.
 
-6. Cloud Security
+**6. Cloud Security**
 
 As organizations move to cloud platforms, security responsibilities shift.
 
@@ -151,7 +151,7 @@ Preventing misconfigurations
 
 It requires understanding both security and cloud architecture.
 
-7. Application Security (AppSec)
+**7. Application Security (AppSec)**
 
 Application security focuses on securing software during development.
 
@@ -167,7 +167,7 @@ DevSecOps integration
 
 It blends programming and security principles.
 
-8. Malware Analysis
+**8. Malware Analysis**
 
 Malware analysts study malicious software to understand how it works.
 
@@ -183,7 +183,7 @@ Understand persistence mechanisms
 
 This domain requires patience and low-level technical skills.
 
-9. Security Engineering
+**9. Security Engineering**
 
 Security engineers design and implement security systems.
 
@@ -199,7 +199,7 @@ Integrate security tools
 
 It requires strong technical foundation and system-level thinking.
 
-10. OSINT and Cyber Investigation
+**10. OSINT and Cyber Investigation**
 
 Open-Source Intelligence (OSINT) involves collecting publicly available information to support investigations.
 

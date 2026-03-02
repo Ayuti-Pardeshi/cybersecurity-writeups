@@ -1,5 +1,5 @@
 🛰 DNS Reconnaissance – Understanding Domain Intelligence Gathering
-📌 Objective
+Objective
 
 To understand how DNS reconnaissance works in a controlled lab environment and how publicly available DNS information can be analyzed for security assessment and defensive monitoring.
 

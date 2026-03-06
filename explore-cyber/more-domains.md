@@ -248,7 +248,7 @@ Governance
 Some domains are deeply technical.
 Others are analytical or policy-driven.
 
-The field requires diversity in thinking:
+**The field requires diversity in thinking:**
 
 Engineers
 

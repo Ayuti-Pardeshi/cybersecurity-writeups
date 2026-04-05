@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Steganography for Beginners: Hiding Secrets in Plain sight
+# 🕵️‍♂️ Steganography for Beginners: Hiding Secrets in Plain Sight
 
 When we think about cybersecurity, the first things that come to mind are **encryption, passwords, and firewalls**. But what if I told you there’s a technique where you don’t just protect data—you *hide its existence entirely*?
 
